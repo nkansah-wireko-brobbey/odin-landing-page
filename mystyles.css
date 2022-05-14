@@ -144,6 +144,7 @@ div.img-placeholder{
 .footer{
     display: flex;
     justify-content: center;
+   
 }
 div.pre-footer{
     display: flex;
@@ -160,4 +161,14 @@ div.pre-footer > div.text{
 }
 div.button > button{
     border: 2px solid #fff;
+}
+div.main-footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #fff;
+    height: 100px;
+    align-items: center;
+}
+div.main-footer > p{
+    margin: 0px auto;
 }
