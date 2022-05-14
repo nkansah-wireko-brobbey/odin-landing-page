@@ -120,6 +120,7 @@ div.img-placeholder{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .page-middle-2{
+    margin: 100px 0px;
     max-width: 100%;
     padding: 120px;
     display: flex;
@@ -139,4 +140,24 @@ div.img-placeholder{
     font-size: 30px;
     font-weight: bold;
 /* padding-right: 700px; */
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+div.pre-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a67d3;
+    width: 900px;
+    padding: 0px 100px;
+    border-radius: 10px;
+    margin:0px 0px 100px 0px;
+}
+div.pre-footer > div.text{
+    
+}
+div.button > button{
+    border: 2px solid #fff;
 }
